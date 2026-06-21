@@ -6,6 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo run:ios",
+    "ios:device": "expo run:ios --device",
+    "ios:device:release": "expo run:ios --device --configuration Release",
     "web": "expo start --web",
     "eas:configure": "eas init",
     "eas:build:ios": "eas build --platform ios --profile production",
